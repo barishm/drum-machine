@@ -28,20 +28,18 @@ const ControlsContainer = () => {
     return (
         <div className="controls-container">
           <div className="control">
-            <p>Power</p>
-            <div className="select" onClick={handlePowerChange} >
-              <div className="inner" style={{ float: power ? 'right' : 'left' }}></div>
-            </div>
+            <button className="btn btn-warning mb-3" onClick={handlePowerChange} >
+              Power
+            </button>
           </div>
-          <p id="display">&nbsp;{display}</p>
-          <div className="volume-slider">
+          <p id="display" className='mb-4'>&nbsp;{display}</p>
+          <div className="volume-slider mb-4">
             <input max="1" min="0" step="0.01" onChange={handleVolumeChange} type="range" value={volume}></input>
           </div>
-          <div className="control">
-            <p>Bank</p>
-            <div className="select" onClick={handleBankChange}>
-              <div className="inner" style={{ float: bank === 'Heater Kit' ? 'left' : 'right' }}></div>
-            </div>
+          <div className="control mt-2">
+            <button className="btn btn-warning" onClick={handleBankChange}>
+              Bank
+            </button>
           </div>
         </div>
       );

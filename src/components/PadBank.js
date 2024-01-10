@@ -106,13 +106,11 @@ const PadBank = () => {
   return (
     <div className="pad-bank">
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Heater1 : PK.Chord1}
         onClick={() => {playAudio("Q")}}
         style={{
-          backgroundColor: "grey",
-          marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
+          marginTop: "10px"
         }}
       >
         <audio
@@ -124,13 +122,11 @@ const PadBank = () => {
         Q
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Heater2 : PK.Chord2}
         onClick={() => {playAudio("W")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -142,13 +138,11 @@ const PadBank = () => {
         W
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Heater3 : PK.Chord3}
         onClick={() => {playAudio("E")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -160,13 +154,11 @@ const PadBank = () => {
         E
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Heater4 : PK.Shaker}
         onClick={() => {playAudio("A")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -178,13 +170,11 @@ const PadBank = () => {
         A
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Clap : PK.OpenHH}
         onClick={() => {playAudio("S")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -196,13 +186,11 @@ const PadBank = () => {
         S
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.OpenHH : PK.ClosedHH}
         onClick={() => {playAudio("D")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -214,13 +202,11 @@ const PadBank = () => {
         D
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.KickN : PK.PunchyKick}
         onClick={() => {playAudio("Z")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -232,13 +218,11 @@ const PadBank = () => {
         Z
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.Kick : PK.SideStick}
         onClick={() => {playAudio("X")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio
@@ -250,13 +234,11 @@ const PadBank = () => {
         X
       </div>
       <div
-        className="drum-pad"
+        className="drum-pad btn btn-warning"
         id={bank === "Heater Kit" ? HK.ClosedHH : PK.Snare}
         onClick={() => {playAudio("C")}}
         style={{
-          backgroundColor: "grey",
           marginTop: "10px",
-          boxShadow: "3px 3px 5px black",
         }}
       >
         <audio

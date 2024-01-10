@@ -5,7 +5,7 @@ import ControlsContainer from "./ControlsContainer";
 const DrumMachine = () => {
 
     return(
-        <div className="inner-container" id="drum-machine">
+        <div className="inner-container rounded shadow-lg" id="drum-machine">
             <PadBank/>
             <Logo/>
             <ControlsContainer/>
